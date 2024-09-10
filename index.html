@@ -358,23 +358,28 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 <div class="heading-border-light"></div>
                 <p>I’d love to hear from you! Whether you’re interested in discussing a project, exploring collaboration opportunities, or just want to say hello, feel free to get in touch..</p>
               </div>   
-              <form action="https://formsubmit.co/aswincp554@gmail.com" method="POST" id="signUp" >
-                <label>name</label>
-                <input class="col-12"name="name" required  type="text">
+               <form action="https://formsubmit.co/aswincp554@gmail.com" method="POST" id="signUp">
+                <label for="name">Name</label>
+                <input class="col-12" id="name" name="name" required type="text" pattern="[A-Za-z ]+" title="Only letters and spaces are allowed">
                 <br>
                 <br>
-                <label>email</label>
-                <input class="col-12"  name="email" required type="email">
+                
+                <label for="email">Email</label>
+                <input class="col-12" id="email" name="email" required type="email">
                 <br>
                 <br>
-                <label >phonenumber</label>
-                <input class="col-12" name="phonenumber" required type="number">
+                
+                <label for="phonenumber">Phone Number</label>
+                <input class="col-12" id="phonenumber" name="phonenumber" required type="tel">
+                
                 <input type="hidden" name="_captcha" value="false">
                 <br>
-                <br>            
-                <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
-              </div>
-            </div>
+                <br>
+                
+                <div class="col-md-12 sub-but">
+                  <button class="btn btn-general btn-white" role="button" type="submit">Send</button>
+                </div>
+              </form>
            
             <div class="col-md-4 col-sm-12 mt-5"> 
               <div class="contact-cont2"> 
