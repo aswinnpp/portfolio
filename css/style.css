@@ -211,7 +211,7 @@ a:active {
                       ABOUT
 ====================================================*/
   #about {
-      background-image: url(https://github.com/aswinnpp/portfolio/blob/main/img/profile%20(2).jpg); 
+      background-image: url(/img/poifile.jpg); 
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
