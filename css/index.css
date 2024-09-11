@@ -214,7 +214,7 @@ section.resume-section .resume-item .resume-date {
 
 
   #about {
-      background-image: url(/img/poifile.jpg); 
+      background-image: url(../poifile.jpg) ;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
