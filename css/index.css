@@ -209,12 +209,17 @@ section.resume-section .resume-item .resume-date {
 /*==================================================
                       ABOUT
 ====================================================*/
-#about {
-  background-image: url(/img/poifile.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
+
+
+
+
+  #about {
+      background-image: url(/img/poifile.jpg); 
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+  }
+
 
 #about h1 {
   /*font-size: 100%;*/
@@ -768,6 +773,7 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+<<<<<<< HEAD
 @media (max-width: 420px) {
   #contact .social-icon-f {
     text-align: center;
@@ -787,4 +793,12 @@ section.resume-section .resume-item .resume-date {
   height: 100%;
   width: 100%;
   position: absolute;
+=======
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+>>>>>>> 1d0924132f2e6ba787f56e98ad151076e55e660b
 }
